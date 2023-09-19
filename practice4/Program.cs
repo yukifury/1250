@@ -428,6 +428,12 @@ namespace practice4
                 if (key.Key == ConsoleKey.Escape)
                 {
                     Console.Clear();
+                    cake.Form = null;
+                    cake.Size = null;
+                    cake.Flavour = null;
+                    cake.CountKorzh = null;
+                    cake.Glazur = null;
+                    cake.Decor = null;
                 }
                 else
                 {
